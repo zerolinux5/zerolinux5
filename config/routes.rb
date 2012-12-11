@@ -1,6 +1,5 @@
 Zerolinux5::Application.routes.draw do
   get "home/index"
-
   get "home/about"
 
   root :to => "home#index"
